@@ -7,7 +7,6 @@ from bs4 import BeautifulSoup as bs
 import re
 
 class Overview(QWidget):
-    
 
     def __init__(self, realm):
         super(Overview, self).__init__()

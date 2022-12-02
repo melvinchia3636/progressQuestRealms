@@ -1,7 +1,6 @@
 from PyQt5 import QtCore, QtGui, QtWidgets
 from tab.tab import TabWidget
 
-
 class Ui_Layout(object):
     def setupUi(self, Layout):
         Layout.setObjectName("Layout")
