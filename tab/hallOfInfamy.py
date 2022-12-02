@@ -76,7 +76,7 @@ class HallOfInfamy(QWidget):
         for i, v in enumerate(self.data):
             for j, w in enumerate(v):
                 item = QTableWidgetItem()
-                item.setData(Qt.DisplayRole, int(w) if w.isdigit() else w)
+                item.setData(Qt.DisplayRole, int(w) if w.isdecimal() else w)
                 self.hallOfInfamyTable.setItem(i, j, item)
 
         self.bottomWrapper = QHBoxLayout()
@@ -139,7 +139,7 @@ class HallOfInfamy(QWidget):
         for i, v in enumerate(self.data):
             for j, w in enumerate(v):
                 item = QTableWidgetItem()
-                item.setData(Qt.DisplayRole, int(w) if w.isnumeric() else w)
+                item.setData(Qt.DisplayRole, int(w) if w.isdecimal() else w)
                 self.hallOfInfamyTable.setItem(i, j, item)
 
         self.hallOfInfamyTable.clearSelection()

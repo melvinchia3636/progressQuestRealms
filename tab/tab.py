@@ -21,7 +21,7 @@ class TabWidget(QTabWidget):
         self.overview = Overview(self.realm)
         self.hallOfFame = HallOfFame(self.realm)
         self.hallOfInfamy = HallOfInfamy(self.realm)
-        self.statistics = Statistics()
+        self.statistics = Statistics(self.realm)
 
         self.addTab(self.overview, "")
         self.addTab(self.hallOfFame, "")
