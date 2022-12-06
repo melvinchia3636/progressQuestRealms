@@ -4,7 +4,7 @@
 
 ## The Problem
 
-I've been playing a game called [Progress Quest](https://progressquest.com) for a while, and everytime I have to open my browser, type the link, navigate through pages just to check my rank. A bit unconvinient don't you think?
+I've been playing a game called [Progress Quest](https://progressquest.com) for a while, and everytime I have to open my browser, type the link, navigate through pages just to check my rank. A bit inconvinient don't you think?
 
 ## The Solution
 
